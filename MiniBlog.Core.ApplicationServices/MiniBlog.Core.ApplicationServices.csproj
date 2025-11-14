@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\sample\1.Core\MiniBlog.Core.Contract\MiniBlog.Core.Contract.csproj" />
+    <ProjectReference Include="..\sample\1.Core\MiniBlog.Core.Domain\MiniBlog.Core.Domain.csproj" />
+    <ProjectReference Include="..\src\2.Core\DDDZamin.Core.ApplicationServices\DDDZamin.Core.ApplicationServices.csproj" />
+  </ItemGroup>
+
+</Project>
