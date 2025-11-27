@@ -17,25 +17,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Infra", "3.Infra", "{4B0E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4..EndPoints", "4..EndPoints", "{8FEE4931-C115-4053-8EB3-1078D34E9FB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDZamin.Utilities", "src\1.Utilities\DDDZamin.Utilities\DDDZamin.Utilities.csproj", "{C142C564-5D49-4DF5-BFB7-4BF1F6A09752}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDZamin.Utilities", "src\1.Utilities\DDDZamin.Utilities\DDDZamin.Utilities.csproj", "{C142C564-5D49-4DF5-BFB7-4BF1F6A09752}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDZamin.Core.Domain", "src\2.Core\DDDZamin.Core.Domain\DDDZamin.Core.Domain.csproj", "{65646561-2921-46CE-8236-9F54C9717D7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDZamin.Core.Domain", "src\2.Core\DDDZamin.Core.Domain\DDDZamin.Core.Domain.csproj", "{65646561-2921-46CE-8236-9F54C9717D7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDZamin.Core.Contract", "src\2.Core\DDDZamin.Core.Contract\DDDZamin.Core.Contract.csproj", "{71FAA010-BEE1-4B4E-B88B-93D454CBCB6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDZamin.Core.Contract", "src\2.Core\DDDZamin.Core.Contract\DDDZamin.Core.Contract.csproj", "{71FAA010-BEE1-4B4E-B88B-93D454CBCB6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDZamin.Core.ApplicationServices", "src\2.Core\DDDZamin.Core.ApplicationServices\DDDZamin.Core.ApplicationServices.csproj", "{7CCCC6E4-CD91-4207-ADBA-BF8A04041BD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDZamin.Core.ApplicationServices", "src\2.Core\DDDZamin.Core.ApplicationServices\DDDZamin.Core.ApplicationServices.csproj", "{7CCCC6E4-CD91-4207-ADBA-BF8A04041BD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDZamin.Core.RequestResponse", "src\2.Core\DDDZamin.Core.RequestResponse\DDDZamin.Core.RequestResponse.csproj", "{238D7C9C-292C-4BB8-AED1-972D7B8B6B13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDZamin.Core.RequestResponse", "src\2.Core\DDDZamin.Core.RequestResponse\DDDZamin.Core.RequestResponse.csproj", "{238D7C9C-292C-4BB8-AED1-972D7B8B6B13}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{C0585FDF-2F8C-4F44-9183-3CAE599C6466}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDZamin.Infra.Data.Sql", "src\3.Infra\Data\DDDZamin.Infra.Data.Sql\DDDZamin.Infra.Data.Sql.csproj", "{1DDA23E3-5C22-45C1-B81C-48A3EB7166C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDZamin.Infra.Data.Sql", "src\3.Infra\Data\DDDZamin.Infra.Data.Sql\DDDZamin.Infra.Data.Sql.csproj", "{1DDA23E3-5C22-45C1-B81C-48A3EB7166C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDZamin.Infra.Data.Sql.Commands", "src\3.Infra\Data\DDDZamin.Infra.Data.Sql.Commands\DDDZamin.Infra.Data.Sql.Commands.csproj", "{1CA6E9BF-38EA-4579-8B77-C28D51DBDC9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDZamin.Infra.Data.Sql.Commands", "src\3.Infra\Data\DDDZamin.Infra.Data.Sql.Commands\DDDZamin.Infra.Data.Sql.Commands.csproj", "{1CA6E9BF-38EA-4579-8B77-C28D51DBDC9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDZamin.Infra.Data.Sql.Queries", "src\3.Infra\Data\DDDZamin.Infra.Data.Sql.Queries\DDDZamin.Infra.Data.Sql.Queries.csproj", "{2E4E5462-0C81-4CF3-8DC2-1AB6CD70661A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDZamin.Infra.Data.Sql.Queries", "src\3.Infra\Data\DDDZamin.Infra.Data.Sql.Queries\DDDZamin.Infra.Data.Sql.Queries.csproj", "{2E4E5462-0C81-4CF3-8DC2-1AB6CD70661A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDZamin.EndPoints.Web", "src\4.EndPoints\DDDZamin.EndPoints.Web\DDDZamin.EndPoints.Web.csproj", "{E974F5B4-2C65-4211-8EC8-5C6DEC5583B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDZamin.EndPoints.Web", "src\4.EndPoints\DDDZamin.EndPoints.Web\DDDZamin.EndPoints.Web.csproj", "{E974F5B4-2C65-4211-8EC8-5C6DEC5583B2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Core", "1.Core", "{EFCEF159-7532-42F3-9E7E-922A61927C6E}"
 EndProject
@@ -43,21 +43,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Infra", "2.Infra", "{F05C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.EndPoints", "3.EndPoints", "{DFD93CDE-92A8-4725-B988-436231CC8F09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniBlog.Core.Domain", "sample\1.Core\MiniBlog.Core.Domain\MiniBlog.Core.Domain.csproj", "{0353B611-E7DA-4822-967D-784ABA9031DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniBlog.Core.Domain", "sample\1.Core\MiniBlog.Core.Domain\MiniBlog.Core.Domain.csproj", "{0353B611-E7DA-4822-967D-784ABA9031DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniBlog.Core.Contract", "sample\1.Core\MiniBlog.Core.Contract\MiniBlog.Core.Contract.csproj", "{20ECBCE3-B8EF-408E-BA83-D877479C4D58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniBlog.Core.Contract", "sample\1.Core\MiniBlog.Core.Contract\MiniBlog.Core.Contract.csproj", "{20ECBCE3-B8EF-408E-BA83-D877479C4D58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniBlog.Core.RequestResponse", "sample\1.Core\MiniBlog.Core.RequestResponse\MiniBlog.Core.RequestResponse.csproj", "{308E9EFE-42EC-42EA-AA83-4EA36C0A93F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniBlog.Core.RequestResponse", "sample\1.Core\MiniBlog.Core.RequestResponse\MiniBlog.Core.RequestResponse.csproj", "{308E9EFE-42EC-42EA-AA83-4EA36C0A93F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniBlog.Core.ApplicationServices", "MiniBlog.Core.ApplicationServices\MiniBlog.Core.ApplicationServices.csproj", "{883AB7BD-C0B2-4447-A190-99E31FA8264F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniBlog.Core.ApplicationServices", "MiniBlog.Core.ApplicationServices\MiniBlog.Core.ApplicationServices.csproj", "{883AB7BD-C0B2-4447-A190-99E31FA8264F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{46F10BA0-C29D-48E2-805A-824982635DC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniBlog.EndPoints.API", "sample\3.EndPoints\MiniBlog.EndPoints.API\MiniBlog.EndPoints.API.csproj", "{6DC1FDA3-1813-4FD8-BB62-C37DE13BE01B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniBlog.EndPoints.API", "sample\3.EndPoints\MiniBlog.EndPoints.API\MiniBlog.EndPoints.API.csproj", "{6DC1FDA3-1813-4FD8-BB62-C37DE13BE01B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniBlog.Infra.Data.Sql.Queries", "sample\2.Infra\Data\MiniBlog.Infra.Data.Sql.Queries\MiniBlog.Infra.Data.Sql.Queries.csproj", "{A5AD2430-6ABF-4EF5-AF3B-021B3CFF93C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniBlog.Infra.Data.Sql.Queries", "sample\2.Infra\Data\MiniBlog.Infra.Data.Sql.Queries\MiniBlog.Infra.Data.Sql.Queries.csproj", "{A5AD2430-6ABF-4EF5-AF3B-021B3CFF93C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniBlog.Infra.Data.Sql.Command", "sample\2.Infra\Data\MiniBlog.Infra.Data.Sql.Command\MiniBlog.Infra.Data.Sql.Command.csproj", "{D8DF1292-12BE-4D21-AF07-2043D9382D77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniBlog.Infra.Data.Sql.Command", "sample\2.Infra\Data\MiniBlog.Infra.Data.Sql.Command\MiniBlog.Infra.Data.Sql.Command.csproj", "{D8DF1292-12BE-4D21-AF07-2043D9382D77}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
