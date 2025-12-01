@@ -1,6 +1,6 @@
-﻿using Zamin.Core.RequestResponse.Common;
+﻿using DDDZamin.Core.RequestResponse.Common;
 
-namespace Zamin.Core.RequestResponse.Queries;
+namespace DDDZamin.Core.RequestResponse.Queries;
 
 /// <summary>
 /// نتیجه یک کوئری را بازگشت می‌دهد

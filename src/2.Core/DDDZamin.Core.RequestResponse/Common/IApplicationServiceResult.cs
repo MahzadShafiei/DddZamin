@@ -1,4 +1,4 @@
-﻿namespace Zamin.Core.RequestResponse.Common;
+﻿namespace DDDZamin.Core.RequestResponse.Common;
 public interface IApplicationServiceResult
 {
     IEnumerable<string> Messages { get; }
