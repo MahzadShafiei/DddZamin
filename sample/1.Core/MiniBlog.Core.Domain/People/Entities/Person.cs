@@ -25,4 +25,10 @@ public class Person : AggregateRoot<int>
 
         AddEvent(new PersonCreated(id, BusinessId.Value, firstName, lastName));
     }
+
+    public void ChangeFirstName(string firstName)
+    { 
+        this.FirstName = firstName;
+        AddEvent(new PersonNameChanged(Id, firstName));
+    }
 }

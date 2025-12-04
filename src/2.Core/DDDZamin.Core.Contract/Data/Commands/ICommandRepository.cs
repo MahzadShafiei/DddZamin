@@ -1,7 +1,6 @@
-﻿using System.Linq.Expressions;
-using System.Security.Cryptography;
-using Zamin.Core.Domain.Entities;
-using Zamin.Core.Domain.ValueObjects;
+﻿using DDDZamin.Core.Domain.Entities;
+using DDDZamin.Core.Domain.ValueObjects;
+using System.Linq.Expressions;
 
 namespace DDDZamin.Core.Contract.Data.Commands;
 /// <summary>
