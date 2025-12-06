@@ -1,5 +1,5 @@
 ﻿namespace DDDZamin.Core.Domain.Entities;
 
-internal interface IAuditableEntity
+public interface IAuditableEntity
 {
 }

@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\src\3.Infra\Data\DDDZamin.Infra.Data.Sql.Commands\DDDZamin.Infra.Data.Sql.Commands.csproj" />
+    <ProjectReference Include="..\..\..\1.Core\MiniBlog.Core.Contract\MiniBlog.Core.Contract.csproj" />
+    <ProjectReference Include="..\..\..\1.Core\MiniBlog.Core.Domain\MiniBlog.Core.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
