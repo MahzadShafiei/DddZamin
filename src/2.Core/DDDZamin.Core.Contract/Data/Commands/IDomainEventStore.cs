@@ -1,4 +1,4 @@
-﻿using Zamin.Core.Domain.Events;
+﻿using DDDZamin.Core.Domain.Events;
 
 namespace DDDZamin.Core.Contract.Data.Commands;
 /// <summary>

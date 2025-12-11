@@ -1,5 +1,6 @@
 ﻿using DDDZamin.Core.Domain.Exceptions;
 using DDDZamin.Core.RequestResponse.Commands;
+using DDDZamin.Core.RequestResponse.Common;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Zamin.Extensions.Logger.Abstractions;
