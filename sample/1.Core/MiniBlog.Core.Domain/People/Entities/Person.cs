@@ -13,13 +13,17 @@ public class Person : AggregateRoot<int>
     public LastName LastName { get; private set; }
     #endregion
 
+    private Person()
+    {
+        
+    }
+
     public Person(int id,  string firstName, string lastName)
     {
         if (id < 0)
         {
             throw new InvalidEntityStateException(MessagePattern.IdValidationMessage);
-        }
-        Id = id;
+        }        
         FirstName = firstName;
         LastName = lastName;
 

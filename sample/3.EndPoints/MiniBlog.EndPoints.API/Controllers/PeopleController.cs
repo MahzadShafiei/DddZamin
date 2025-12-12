@@ -1,13 +1,15 @@
+using DDDZamin.EndPoints.Web.Controllers;
 using Microsoft.AspNetCore.Mvc;
 using MiniBlog.Core.Domain.People.Entities;
 using MiniBlog.Core.Domain.People.ValueObjects;
+using MiniBlog.Core.RequestResponse.People.Commands.Create;
 
 namespace MiniBlog.EndPoints.API.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class PeopleController : ControllerBase
-    {  
+    public class PeopleController : BaseController
+    {
         private readonly ILogger<PeopleController> _logger;
 
         public PeopleController(ILogger<PeopleController> logger)
@@ -34,22 +36,14 @@ namespace MiniBlog.EndPoints.API.Controllers
             }
             catch (Exception ex)
             {
-                return Ok(ex.ToString());                
+                return Ok(ex.ToString());
             }
         }
 
-        [HttpGet("/CreatePerson")]
-        public IActionResult CreatePerson()
+        [HttpPost("/CreatePerson")]
+        public async Task<IActionResult> CreatePerson([FromBody]CreatePerson createPerson)
         {
-            try
-            {
-                PersonEventBase person = new PersonEventBase(1,"Mahzad","Shafiei");
-                return Ok();
-            }
-            catch (Exception ex)
-            {
-                return Ok(ex.ToString());
-            }
+            return await Create<CreatePerson, int>(createPerson);
         }
     }
 }

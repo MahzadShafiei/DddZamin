@@ -5,7 +5,7 @@ namespace MiniBlog.Infra.Data.Sql.Queries
 {
     public class MiniBlogQueyDBContext : BaseQueryDbContext
     {
-        public MiniBlogQueyDBContext(DbContextOptions options) : base(options)
+        public MiniBlogQueyDBContext(DbContextOptions<MiniBlogQueyDBContext> options) : base(options)
         {
         }
     }

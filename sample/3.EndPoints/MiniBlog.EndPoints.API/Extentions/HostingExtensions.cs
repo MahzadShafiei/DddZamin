@@ -7,6 +7,8 @@ using DDDZamin.EndPoints.Web.Extentions.DependencyInjection;
 using MiniBlog.Infra.Data.Sql.Command;
 using DDDZamin.Infra.Data.Sql.Commands.Interceptors;
 using MiniBlog.Infra.Data.Sql.Queries;
+using DDDZamin.EndPoints.Web.Extentions.ModelBinding;
+using DDDZamin.EndPoints.Web.Middlewares.ApiExceptionHandler;
 
 
 namespace MiniBlog.Endpoints.API.Extentions;
@@ -33,7 +35,7 @@ public static class HostingExtensions
         //builder.Services.AddSoftwarePartDetector(configuration, "SoftwarePart");
 
         //zamin
-        //builder.Services.AddNonValidatingValidator();
+        builder.Services.AddNonValidatingValidator();
 
         //zamin
         builder.Services.AddZaminMicrosoftSerializer();
@@ -77,7 +79,7 @@ public static class HostingExtensions
     public static WebApplication ConfigurePipeline(this WebApplication app)
     {
         //zamin
-        //app.UseZaminApiExceptionHandler();
+        app.UseZaminApiExceptionHandler();
 
         //Serilog
         app.UseSerilogRequestLogging();
